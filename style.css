@@ -13,7 +13,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     width: 100vw;
-    height: 100vh;
 }
 
 .box{
@@ -21,6 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 300px;
 }
 
 #tl{
@@ -28,11 +28,14 @@
 }
 
 #tr{
-    background: linear-gradient(to right, #0F2042, #007AA5, #00A3E0);}
+    background: linear-gradient(to bottom, #0F2042, #007AA5, #00A3E0);}
 #bl{
     background: linear-gradient(45deg, #1C1C1C, #F7F9FA);
 
 }
 #br{
     background: linear-gradient(#D32F2F 0%, #1E1E24 50%, #F5F6F8 100%);
+}
+#bbl{
+    background: linear-gradient(#B35433, 15%, #F5EFEB);
 }
