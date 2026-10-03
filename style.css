@@ -5,7 +5,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
-    color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eeefdf;
 }
 
 .parent{
@@ -23,11 +30,11 @@
   height: 300px;
 }
 
-#tl{
+#tl, .days{
     background: linear-gradient(#FF5500, #FFD000);
 }
 
-#tr{
+#tr, .night{
     background: linear-gradient(to bottom, #0F2042, #007AA5, #00A3E0);}
 #bl{
     background: linear-gradient(45deg, #1C1C1C, #F7F9FA);
@@ -39,3 +46,14 @@
 #bbl{
     background: linear-gradient(#B35433, 15%, #F5EFEB);
 }
+
+.days, .night{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
